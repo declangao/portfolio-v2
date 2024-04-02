@@ -7,7 +7,9 @@ import WorkExperienceTile from './_components/work-experience-tile';
 export default function ExperiencePage() {
   return (
     <div className="pt-12 flex flex-col items-center mb-20">
-      <h1 className="text-4xl text-center mb-8">My Work Experience</h1>
+      <h1 className="text-4xl font-bold text-center mb-8">
+        My Work Experience
+      </h1>
 
       <motion.ul
         className="w-full md:w-2/3"

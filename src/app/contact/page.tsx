@@ -52,7 +52,7 @@ export default function ContactPage() {
       <motion.h1
         initial={{ y: -200, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        className="text-4xl text-center mb-8"
+        className="text-4xl font-bold text-center mb-8"
       >
         Get in Touch
       </motion.h1>

@@ -82,10 +82,11 @@ export const projects: Project[] = [
     description: 'My personal portfolio site.',
     features: [
       'Built with React, Next.js, Tailwind CSS and TypeScript',
-      'Full stack site with backend API and MongoDB',
+      'Full stack site with backend API',
+      'Send emails using Resend',
+      'Multiple Framer Motion examples throughout the site',
       'Server side rendering',
       'Light/dark theme',
-      'Multiple Framer Motion examples throughout the site',
     ],
     techStack: ['React', 'Next.js', 'TypeScript', 'Tailwind'],
   },
