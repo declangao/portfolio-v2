@@ -6,8 +6,8 @@ import { buttonVariants } from './ui/button';
 
 export default function Navbar() {
   return (
-    <nav className="w-full sticky top-0 z-50 h-16 backdrop-blur-lg shadow-md dark:shadow-zinc-800">
-      <div className="container h-full flex justify-between items-center">
+    <header className="w-full sticky top-0 z-50 h-16 backdrop-blur-lg shadow-md dark:shadow-zinc-800">
+      <nav className="container h-full flex justify-between items-center">
         <div className="h-14">
           <Link href="/">
             <Icons.Logo className="fill-black dark:fill-zinc-100 h-14" />
@@ -47,7 +47,7 @@ export default function Navbar() {
           </a>
           <ThemeToggle />
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 }

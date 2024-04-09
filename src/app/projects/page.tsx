@@ -11,7 +11,7 @@ export default function ProjectsPage() {
         Projects I Worked On
       </h1>
       <motion.ul
-        className="grid grid-cols-[repeat(auto-fill,minmax(20rem,1fr))] gap-8 list-none"
+        className="grid grid-cols-[repeat(auto-fill,minmax(18rem,1fr))] gap-8 list-none"
         variants={{
           hidden: {
             scale: 0,

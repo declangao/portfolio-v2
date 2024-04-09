@@ -2,7 +2,7 @@ import { Icons } from './icons';
 
 export default function Footer() {
   return (
-    <div className="container border-t h-12 flex justify-between items-center">
+    <footer className="container border-t h-12 flex justify-between items-center">
       <div className="text-sm">
         <span className="text-muted-foreground">
           © {new Date().getFullYear()} Copyright:{' '}
@@ -18,6 +18,6 @@ export default function Footer() {
           <Icons.Github className="size-6" />
         </a>
       </div>
-    </div>
+    </footer>
   );
 }

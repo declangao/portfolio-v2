@@ -26,7 +26,6 @@ const itemVariantsRight = {
 };
 
 export default function AboutPage() {
-  // h-[calc(100vh-12rem)]
   return (
     <motion.div
       className="py-4 md:py-8 flex justify-center items-center flex-col lg:flex-row gap-4"
@@ -60,15 +59,6 @@ export default function AboutPage() {
           Originally born in China, I moved to New Zealand when I was young and
           now I call Canada home.
         </motion.p>
-
-        {/* <motion.p className="mb-2" variants={itemVariantsLeft}>
-          Being a top graduate, I hold{' '}
-          <span className="text-primary">Postgraduate Diploma</span> and{' '}
-          <span className="text-primary">Bachelor degree</span> in{' '}
-          <span className="text-primary">Computer Science</span> from{' '}
-          <span className="text-primary">The University of Waikato</span> and{' '}
-          <span className="text-primary">Waikato Institute of Technology</span>.
-        </motion.p> */}
 
         <motion.p className="mb-2" variants={itemVariantsLeft}>
           Having worked in numerous countries in the last decade, I&apos;m a

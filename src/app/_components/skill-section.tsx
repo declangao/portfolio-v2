@@ -32,7 +32,7 @@ export default function SkillSection() {
 
         <Skill image="/images/logos/flutter.png" text="Flutter" />
         <Skill image="/images/logos/node.png" text="Node.js" />
-        <Skill image="/images/logos/tailwind.png" text="TailWindCSS" />
+        <Skill image="/images/logos/tailwind.png" text="TailWind" />
         <Skill image="/images/logos/graphql.png" text="GraphQL" />
 
         <Skill image="/images/logos/git.png" text="Git" directionLeft />

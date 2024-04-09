@@ -24,11 +24,11 @@ export default function WorkExperienceTile({
         },
       }}
     >
-      <div className="col-span-2 text-slate-500">
+      <div className="col-span-8 md:col-span-2 text-slate-500 group-hover:text-sky-400">
         {startDate} — {endDate}
       </div>
-      <div className="col-span-6">
-        <div className="mb-3 group-hover:text-sky-400">
+      <div className="col-span-8 md:col-span-6">
+        <div className="mb-3">
           {title} • {company}
         </div>
         {description && <p className="text-slate-400 mb-4">{description}</p>}

@@ -11,7 +11,7 @@ type Props = {
 
 export default function ProjectTile({ image, text, slug }: Props) {
   return (
-    <Tilt className="group shadow-xl hover:shadow-sky-300 relative flex">
+    <Tilt className="group shadow-xl hover:shadow-sky-300 relative flex rounded-md">
       <motion.div
         variants={{
           hidden: {
@@ -26,7 +26,7 @@ export default function ProjectTile({ image, text, slug }: Props) {
       >
         <Link href={`/projects/${slug}`}>
           <Image
-            className="w-full h-full object-cover filter group-hover:grayscale transition duration-300 ease-in-out"
+            className="w-full h-full object-cover filter group-hover:grayscale transition duration-300 ease-in-out rounded-md"
             src={image}
             alt={text}
             width={600}
