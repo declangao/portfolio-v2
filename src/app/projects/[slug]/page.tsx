@@ -47,7 +47,7 @@ export default function ProjectDetailPage() {
           </ul>
 
           <div className="flex gap-4 mt-6">
-            {project.previewUrl && (
+            {project.previewUrl && typeof project.previewUrl === 'string' && (
               <a
                 href={project.previewUrl}
                 target="_blank"
@@ -56,8 +56,22 @@ export default function ProjectDetailPage() {
                 Preview
               </a>
             )}
+            {project.previewUrl && Array.isArray(project.previewUrl) && (
+              <>
+                {project.previewUrl.map((url, index) => (
+                  <a
+                    key={url}
+                    href={url}
+                    target="_blank"
+                    className={cn('cursor-pointer', buttonVariants())}
+                  >
+                    Preview {index + 1}
+                  </a>
+                ))}
+              </>
+            )}
 
-            {project.githubUrl && (
+            {project.githubUrl && typeof project.githubUrl === 'string' && (
               <a
                 href={project.githubUrl}
                 target="_blank"
@@ -68,6 +82,23 @@ export default function ProjectDetailPage() {
               >
                 Github
               </a>
+            )}
+            {project.githubUrl && Array.isArray(project.githubUrl) && (
+              <>
+                {project.githubUrl.map((url, index) => (
+                  <a
+                    key={url}
+                    href={url}
+                    target="_blank"
+                    className={cn(
+                      'cursor-pointer',
+                      buttonVariants({ variant: 'secondary' })
+                    )}
+                  >
+                    Github {index + 1}
+                  </a>
+                ))}
+              </>
             )}
           </div>
         </div>

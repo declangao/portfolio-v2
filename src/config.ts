@@ -2,6 +2,52 @@ import { Project, WorkExperience } from './types';
 
 export const projects: Project[] = [
   {
+    name: 'Events Networking Platform',
+    slug: 'events',
+    thumbnail: '/images/projects/events-1.png',
+    images: [
+      '/images/projects/events-1.png',
+      '/images/projects/events-2.png',
+      '/images/projects/events-3.png',
+      '/images/projects/events-4.png',
+      '/images/projects/events-5.png',
+      '/images/projects/events-6.png',
+      '/images/projects/events-7.png',
+      '/images/projects/events-8.png',
+      '/images/projects/events-9.png',
+      '/images/projects/events-10.png',
+      '/images/projects/events-11.png',
+    ],
+    githubUrl: [
+      'https://github.com/declangao/events-server',
+      'https://github.com/declangao/events-web',
+    ],
+    description:
+      'A full-stack events networking app witg next.js frontend and Node.js backend using GrapghQL.',
+    features: [
+      'Frontend built with GraphQL (ApolloClient), React, Next.js, Tailwind, TypeScript and Firebase',
+      'Backend built with GraphQL (ApolloServer), Node.js, Express, TypeScript, PostgreSQL, Prisma and Firebase',
+      'Fully utilized Next.js server component and server side rending using ApolloClient for better SEO',
+      'Google Maps integration with GeoLocation lookup and map generation',
+      'Firebase authentication and PostgreSQL database',
+      'Publish and register events',
+      'Light & dark theme',
+    ],
+    techStack: [
+      'GraphQL',
+      'React',
+      'Next.js',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'Tailwind',
+      'Firebase',
+      'PostgreSQL',
+      'Prisma',
+    ],
+    isFeatured: true,
+  },
+  {
     name: 'Discuzit',
     slug: 'discuzit',
     thumbnail: '/images/projects/discuzit-1.png',
@@ -113,7 +159,6 @@ export const projects: Project[] = [
       'Interactive and engaging animations',
     ],
     techStack: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'MongoDB'],
-    isFeatured: true,
   },
   {
     name: 'Kings in the Corner Scoreboard',

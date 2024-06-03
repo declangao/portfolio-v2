@@ -13,8 +13,8 @@ export type Project = {
   slug: string;
   thumbnail: string;
   images: string[];
-  githubUrl?: string;
-  previewUrl?: string;
+  githubUrl?: string | string[];
+  previewUrl?: string | string[];
   description: string;
   features: string[];
   isFeatured?: boolean;
