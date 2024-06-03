@@ -28,9 +28,11 @@ export const projects: Project[] = [
       'Frontend built with GraphQL (ApolloClient), React, Next.js, Tailwind, TypeScript and Firebase',
       'Backend built with GraphQL (ApolloServer), Node.js, Express, TypeScript, PostgreSQL, Prisma and Firebase',
       'Fully utilized Next.js server component and server side rending using ApolloClient for better SEO',
+      "Sort events based on user's location once location permission is granted",
       'Google Maps integration with GeoLocation lookup and map generation',
       'Firebase authentication and PostgreSQL database',
       'Publish and register events',
+      'Cloudinary image upload',
       'Light & dark theme',
     ],
     techStack: [

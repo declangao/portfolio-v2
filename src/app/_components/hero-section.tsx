@@ -31,7 +31,7 @@ const itemVariantsRight = {
 export default function HeroSection() {
   const [text] = useTypewriter({
     words: [
-      'with 8 years of experience.',
+      'with 9 years of experience.',
       'with strong problem-solving skills.',
       'who is proficient in modern web development.',
       'who loves to learn new things.',
@@ -77,7 +77,7 @@ export default function HeroSection() {
           variants={itemVariantsLeft}
         >
           <span className="text-gray-500">
-            A Toronto based frontend/full-stack developer
+            A Toronto based full-stack developer
           </span>
           <br />
           <span className="text-sky-500">{text}</span>
